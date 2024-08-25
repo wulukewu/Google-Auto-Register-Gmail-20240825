@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
-          pip install PIL
+          pip install Pillow
 
       - name: Run Main Code
         run: python Main.py
