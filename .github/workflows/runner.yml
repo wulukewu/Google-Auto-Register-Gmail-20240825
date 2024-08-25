@@ -17,5 +17,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: |
+          pip install requests
+
       - name: Run Main Code
         run: python Main.py
