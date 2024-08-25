@@ -22,7 +22,6 @@ jobs:
           pip install requests
           pip install Pillow
           pip install six
-          pip install win32gui
 
       - name: Run Main Code
         run: python Main.py
