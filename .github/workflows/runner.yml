@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install requests
           pip install Pillow
+          pip install six
 
       - name: Run Main Code
         run: python Main.py
